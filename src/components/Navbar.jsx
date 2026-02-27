@@ -5,7 +5,7 @@ import { logo } from "../assets/images";
 const Navbar = () => {
   return (
     <header className='header'>
-      <NavLink to='/' className="w-10 h-10 rounded-lg bg-white items-center justifycenter flex font-bold shadow-md">
+      <NavLink to='/' className="w-10 h-10 rounded-lg bg-white items-center justify-center flex font-bold shadow-md">
         <p className="blue-gradient_text">AP</p>
         {/* <img src={logo} alt='logo' className='w-18 h-18 object-contain' /> */}
       </NavLink>
