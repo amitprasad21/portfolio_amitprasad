@@ -10,7 +10,7 @@ const HomeInfo = ({ currentStage }) => {
         <span className='font-semibold mx-2 text-white'>Amit</span>
         👋
         <br />
-        Software Developer & AI Enthusiast
+        Software Developer & AI Enthusiast from India.
       </h1>
     );
 
@@ -50,9 +50,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
       <p className='font-medium sm:text-xl text-center'>
-        Open to Backend, AI, and SDE Internship Opportunities.
-          <br />
-        Let’s collaborate and build something impactful.
+        Need a project done or looking for a dev? <br /> I'm just a few keystrokes away!   
       </p>
 
       <Link to='/contact' className='neo-brutalism-white neo-btn'>
