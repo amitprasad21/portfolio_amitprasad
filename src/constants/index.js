@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import {  scholarrank,gdsc ,college } from "../assets/images";
 import {
     car,
     contact,
@@ -109,59 +109,46 @@ export const skills = [
     }
 ];
 
-export const experiences = [
-    {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+export const experiences =  [
+  {
+    title: "Data Analytics Intern",
+    company_name: "ScholarRank.Ai (Remote)",
+    icon: scholarrank, // add your company logo in assets
+    iconBg: "#E6DEDD",
+    date: "February 2025 - May 2025",
+    points: [
+      "Developed 10+ interactive dashboards using Power BI and Tableau, reducing reporting time by 40%.",
+      "Performed data cleaning and transformation, reducing inconsistencies by 30% and improving model accuracy by 20%.",
+      "Conducted market research on AI pricing models and analyzed industry trends.",
+      "Collaborated with cross-functional teams to optimize AI-driven pricing strategies."
+    ],
+  },
+  {
+    title: "Co-Lead, Web Development",
+    company_name: "Google Developer Student Clubs (GDSC)",
+    icon: gdsc, // add GDSC logo in assets
+    iconBg: "#B7E4C7",
+    date: "December 2022 - August 2023",
+    points: [
+      "Facilitated web development workshops and mentored students in frontend and backend technologies.",
+      "Led a team in building scalable web applications.",
+      "Organized technical events and collaborative coding sessions.",
+      "Strengthened leadership and project management skills."
+    ],
+  },
+  {
+    title: "B.Tech in Computer Science (AIML)",
+    company_name: "Dronacharya Group of Institutions",
+    icon: college, // optional college logo
+    iconBg: "#FBC3BC",
+    date: "November 2022 - Expected June 2026",
+    points: [
+      "Specializing in Artificial Intelligence and Machine Learning.",
+      "Built multiple AI and full-stack projects including crowd prediction and gender recognition systems.",
+      "Maintaining a CGPA of 7.7/10.0.",
+      "Actively participating in hackathons and technical communities."
+    ],
+  },
 ];
 
 export const socialLinks = [
@@ -186,43 +173,35 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'WanderLust',
+        description: 'An Airbnb-inspired full-stack web application that allows users to explore, book, and list travel accommodations. WanderLust provides an interactive map experience, secure authentication, image uploads, responsive UI, and a complete end-to-end booking workflow.',
+        link: 'https://wanderlust-wis2.onrender.com/',
+        github: 'https://github.com/amitprasad21/WanderLust-FULL_STACK-',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'LearnHub',
+        description: 'LearnHub is a responsive React + TypeScript frontend for discovering age-appropriate learning courses for kids, with filters for subjects, instructors, and schedules.',
+        link: 'https://learn-hub21.vercel.app/',
+        github: 'https://github.com/amitprasad21/LearnHub21',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: ' Simon Says Game',
+        description: 'Simon Says Game A simple Simon Says memory game built using HTML, CSS, and JavaScript. The player must repeat the sequence of colors shown by the game. Each round, the sequence gets longer, testing memory and focus.',
+        link: 'https://simonsaygame01.netlify.app/',
+        github: 'https://github.com/amitprasad21/WanderLust-FULL_STACK-',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'AI Image Generator',
+        description: 'A simple and fast tool to convert your text into customizable images.',
+        link: 'https://text-img.netlify.app/',
+        github: 'https://github.com/amitprasad21/AI_text_to_Image',
     },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+    
+    
 ];

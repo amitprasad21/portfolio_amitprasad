@@ -55,6 +55,20 @@ const Projects = () => {
                   alt='arrow'
                   className='w-4 h-4 object-contain'
                 />
+                &nbsp;&nbsp;
+                <Link
+                  to={project.github}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='font-semibold text-blue-600'
+                >
+                  GitHub Link
+                </Link>
+                <img
+                  src={arrow}
+                  alt='arrow'
+                  className='w-4 h-4 object-contain'
+                />
               </div>
             </div>
           </div>

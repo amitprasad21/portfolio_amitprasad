@@ -1,16 +1,58 @@
-# React + Vite
+# Amit Prasad – 3D Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **3D interactive developer portfolio** built using **React, Vite, Three.js, and Tailwind CSS**.
 
-Currently, two official plugins are available:
+This project showcases my professional journey, technical skills, and projects in an immersive experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 👨‍💻 About Me
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I am a **Backend-focused Software Developer & AI Enthusiast** pursuing B.Tech in Computer Science (AIML) at
 
-## Expanding the ESLint configuration
+**Dronacharya Group of Institutions, Greater Noida**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- ⚛️ React.js
+- ⚡ Vite
+- 🎨 Tailwind CSS
+- 🌍 Three.js (React Three Fiber & Drei)
+- 📧 EmailJS
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```
+git clone https://github.com/your-username/3D_portfolio.git
+cd 3D_portfolio
+```
+
+### 2️⃣ Install Dependencies
+
+```
+npm install--legacy-peer-deps
+```
+
+### 3️⃣ Setup Environment Variables
+
+Create a `.env` file in the root directory:
+
+```
+VITE_APP_EMAILJS_SERVICE_ID=your_service_id
+VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+Restart the server after adding the `.env` file.
+
+### 4️⃣ Run Development Server
+
+```
+npm run dev
+```
