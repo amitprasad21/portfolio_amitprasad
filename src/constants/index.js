@@ -172,6 +172,14 @@ export const socialLinks = [
 export const projects = [
     {
         iconUrl: pricewise,
+        theme: 'btn-back-blue',
+        name: 'Resumind',
+        description: 'Resumind is an AI-powered Resume Analyzer built with React, React Router v7, and Puter.js that helps candidates optimize their resumes based on specific companies and job roles. It provides personalized feedback and suggestions to enhance resume effectiveness, increasing the chances of landing interviews.',
+        link: 'https://wanderlust-wis2.onrender.com/',
+        github: 'https://github.com/amitprasad21/WanderLust-FULL_STACK-',
+    },
+    {
+        iconUrl: pricewise,
         theme: 'btn-back-red',
         name: 'WanderLust',
         description: 'An Airbnb-inspired full-stack web application that allows users to explore, book, and list travel accommodations. WanderLust provides an interactive map experience, secure authentication, image uploads, responsive UI, and a complete end-to-end booking workflow.',
